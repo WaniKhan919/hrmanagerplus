@@ -21,7 +21,7 @@ function sendEmailWithHtmlContent($to, $subject, $htmlContent) {
 }
 
 // Example usage:
-$confirmationPageUrl = 'https://example.com/confirmation-modify-printview.php?uuid=72b84a86-5c8a-494f-a717-3b9078a607b9';
+$confirmationPageUrl = 'https://example.com/confirmation-modify-printview.php?uuid='.$_GET['uuid'];
 $htmlContent = fetchUrlContent($confirmationPageUrl);
 
 // Replace these values with appropriate email and subject
