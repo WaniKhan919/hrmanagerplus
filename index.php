@@ -27,7 +27,7 @@
                                                     <label for="first_name" class="form-label"><span
                                                             class="text-danger">*</span> First Name</label>
                                                     <input type="text" id="first_name" class="form-control"
-                                                        name="first_name">
+                                                        name="first_name" required>
                                                 </div>
                                             </div>
                                             <div class="col-12 col-md-6 col-lg-4">
@@ -41,7 +41,7 @@
                                                 <div class="mb-3">
                                                     <label for="surname" class="form-label"><span
                                                             class="text-danger">*</span> Surname</label>
-                                                    <input type="text" id="surname" class="form-control" name="surname">
+                                                    <input type="text" id="surname" class="form-control" name="surname" required>
                                                 </div>
                                             </div>
                                         </div>
@@ -105,7 +105,7 @@
                                                 <div class="mb-3">
                                                     <label for="email" class="form-label"><span
                                                             class="text-danger">*</span> Email</label>
-                                                    <input type="email" id="email" class="form-control" name="email">
+                                                    <input type="email" id="email" class="form-control" name="email" required>
                                                 </div>
                                             </div>
                                             <div class="col-12 col-md-6 col-lg-4">
@@ -137,7 +137,7 @@
                                                 <div class="mb-3">
                                                     <label for="dob" class="form-label"><span
                                                             class="text-danger">*</span> Date of Birth</label>
-                                                    <input type="date" id="dob" class="form-control" name="dob">
+                                                    <input type="date" id="dob" class="form-control" name="dob" required>
                                                 </div>
                                             </div>
                                             <div class="col-12 col-md-6 col-lg-4">
