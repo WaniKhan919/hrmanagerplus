@@ -17,7 +17,7 @@ include 'db.php';
           $run=mysqli_query($conn,$sql);
         }
     }
-    if($run){
+    if($uuid){
       header('location:references.php?uuid='.$uuid);
     }else{
       echo "failed";
