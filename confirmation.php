@@ -307,7 +307,7 @@
                                         <div class="row mt-3">
                                             <div class="text-center">
                                                 <button class="btn btn-primary m-2">Submit</button>
-                                                <button class="btn btn-secondary">Print View</button>
+                                                <a href="confirmation-modify-printview.php?uuid=<?php echo $id?>" target="_blank" class="btn btn-secondary">Print View</a>
                                             </div>
                                         </div>
                                     </form>

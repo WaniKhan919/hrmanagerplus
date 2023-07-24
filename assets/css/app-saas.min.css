@@ -22226,4 +22226,16 @@ h4{
 .accordion-body{
     background-color: white;
 }
+.heading{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #000;
+}
+.sub_heading{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #000;
+}
 /*# sourceMappingURL=app-saas.min.css.map */

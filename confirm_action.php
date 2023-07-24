@@ -20,7 +20,7 @@ include 'db.php';
     $sql="INSERT INTO `confirmation`(`uu_id`,`sign`, `print_name`, `date`, `sign_two`, `print_name_two`, `date_two`, `post`, `email`, `telephone`, `sms`, `is_call`, `terms`, `privacy_policy`,`opt_out`) VALUES('$uuid','$sign','$print_name','$date','$sign_two','$print_name_two','$date_two','$post','$email','$telephone','$sms','$is_call','$terms','$privacy_policy','$opt_out')";
     $run=mysqli_query($conn,$sql);
     if($run){
-      header('location:success.php');
+      header('location:mail.php?uuid='.$uuid);
     }else{
       echo "failed";
     }
