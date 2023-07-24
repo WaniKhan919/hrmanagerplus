@@ -9,7 +9,7 @@ include 'db.php';
         $sql="INSERT INTO `financial_history`(`uu_id`, `date`, `court`, `details`) VALUES('$uuid','$date','$court','$details')";
         $run=mysqli_query($conn,$sql);
     }
-    if($run){
+    if($uuid){
       header('location:work-history.php?uuid='.$uuid);
     }else{
       echo "failed";

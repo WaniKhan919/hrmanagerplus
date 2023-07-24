@@ -12,7 +12,7 @@ include 'db.php';
         $sql="INSERT INTO `education_history`(`uu_id`, `institute`, `email`, `qualification`, `type`, `starting_from`, `end_to`) VALUES('$uuid','$institute','$email','$qualification','$type','$starting_from','$end_to')";
         $run=mysqli_query($conn,$sql);
     }
-    if($run){
+    if($uuid){
       header('location:financial-history.php?uuid='.$uuid);
     }else{
       echo "failed";
