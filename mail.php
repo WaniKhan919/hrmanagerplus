@@ -20,7 +20,7 @@ function sendEmailWithHtmlContent($to, $subject, $htmlContent) {
     mail($to, $subject, $htmlContent, $headers);
 }
 
-// Example usage:
+//Replace https://example.com with your baseurl
 $confirmationPageUrl = 'https://example.com/confirmation-modify-printview.php?uuid='.$_GET['uuid'];
 $htmlContent = fetchUrlContent($confirmationPageUrl);
 
